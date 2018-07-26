@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <style>
+		*{margin:0;padding:0;font-style:normal;font-weight:600;font-size:20px;}
+		
+		#wrap{width:960px;margin:0 auto;}
+		
+		header,.lnb,.ad,.cont,footer{text-align:center;border:1px solid none;border-radius:20px;}
+		
+		header{height:100px;background-color:gray;box-sizing:border-box;}
+		
+		section{margin:10px 0 10px;*zoom:1;}
+		section:after{display:block;clear:both;content:'';}
+		
+		section>.left{float:left;width:198px;height:400px;margin-right:10px;}
+		section>.left>.lnb{height:250px;background-color:blue;}
+		section>.left>.ad{height:140px;margin-top:5px;background-color:lightpink;}
+		section>.cont{float:left;width:748px;height:400px;background-color:yellow;}
+		
+		footer{height:100px;background-color:chocolate;box-sizing:border-box;}
+    </style>
+</head>
+<body>
+<div id="wrap">
+	<header>헤더</header>
+	
+	<section>
+		<article class="left">
+			<div class="lnb">lnb</div>
+			<div class="ad">ad</div>
+		</article>
+		
+		<article class="cont">컨텐츠</article>
+	</section>
+	
+	<footer>풋터</footer>
+</div>
+</body>
+</html>

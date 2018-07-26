@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>margin 통합현상</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="./css/reset.css">
+    <style>
+		.case_1>p{margin:0 auto;width:150px;height:150px;line-height:150px;text-align:center;border:1px solid black;}
+		p.box1{margin-bottom:70px;background-color:red;}
+		p.box2{margin-top:50px;margin-bottom:70px;background-color:orange;}
+		p.box3{margin-top:65px;background-color:yellow;}
+		p.box4{margin-bottom:40px;background-color:green;}
+		p.box5{margin-top:50px;background-color:blue;}
+		
+    </style>
+</head>
+<body>
+ <div id="wrap">
+ 	<h1 class="text-center">margin 통합현상</h1>
+ 	
+ 	<section>
+ 		<article class="case_1">
+ 			<h2 class="text-center">형제관계의 margin 통합 테스트</h2>
+ 			
+ 			<h3 style="margin-bottom:50px;padding:20px;">margin에만 있는 margin 통합현상은 형제관계에서 <mark>상하 margin을 중복했을 때</mark> 발생하며, <br> 두 수치 중 큰 값만 살아 남는다. 좌우 margin에서는 발생하지 않는다.</h3>
+			
+			<p class="box1">박스-1</p>
+			<p class="box2">박스-2</p>
+			<p class="box3">박스-3</p>
+			<p class="box4">박스-4</p>
+			<p class="box5">박스-5</p>
+ 		</article>
+ 	</section>
+ </div>
+</body>
+</html>
