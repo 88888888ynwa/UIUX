@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+#wrap{position:relative;width:600px;height:700px;margin:0 auto;background-color:#333;}
+
+header{position:absolute;top:0;width:600px;height:100px;background-color:#069;*zoom:1;}
+header:after{display:block;clear:both;content:'';}
+
+header>h1{float:left;color:#fff;width:200px;line-height:100px;font-weight:800;font-size:30px;text-align:center;}
+
+header>nav{float:left;}
+header>nav>.gnb{line-height:100px;}
+header>nav>.gnb>li{display:inline-block;margin-right:20px;}
+header>nav>.gnb>li>a{color:#fff;font-size:16px;}
+header>nav>.gnb>li:nth-child(3)>a{color:yellow;}
+
+
+footer{position:absolute;bottom:0;width:600px;height:80px;line-height:80px;}
+footer>address{color:#fff;font-size:16px;text-align:center;}
+
+
+section{position:absolute;top:100px;left:5px;margin-top:5px;padding:30px 10px 10px;width:570px;background-color:#fff;}
+section>h2{margin-bottom:20px;color:black;font-size:25px;}
+
+section>p{font-size:14px;line-height:1.5;*zoom:1;}
+section>p:after{display:block;clear:both;content:'';}
+
+section>p>.frame{float:right;width:300px;height:220px;padding-left:10px;text-indent:-9999px;background-image:url(../images/puppy_5.jpg);background-size:cover;}
