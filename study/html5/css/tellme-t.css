@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+section{
+	padding:20px 0 80px; /* p */
+	background-color:#2f2f2f; /* bgc */
+}
+
+section>h2{
+	color:#fff; /* c */
+	font-weight:500; /* fw */
+	font-size:22px; /* fz */
+}
+section>.iam{
+	overflow-y:scroll;
+	width:845px; /* w */
+	height:420px; /* h */
+	margin:0 auto; /* m */
+	background-color:#fff;
+	*zoom:1;
+}
+section>.iam:after{
+	display: block; /* d:b */
+	clear: both; /* cl:b */
+	content:''; /* ct */
+}
+
+section>.iam>dl{
+	float:left; /* fl:l */
+	position:relative; /* pos:r pos:a 기준점을 dl에 잡았다. 포지션 ralative는 float과 같이 써도 된다!*/ 
+	width:255px;
+	height:380px;
+	margin-top:20px; /* mt */
+	margin-left:18px; /* ml */
+	border:1px solid #ddd;/* bd */ 
+	box-sizing:border-box; /* bxz:bb */
+}
+section>.iam>dl:nth-child(4),
+section>.iam>dl:nth-child(5),
+section>.iam>dl:nth-child(6),{
+	margin-bottom:20px; /* mb */
+}
+section>.iam>dl>dt:before{
+	display: block;
+	width:122px;
+	height:122px;
+	margin:20px auto;
+	border-radius:200px; /* 반지름 길이만큼 줘도 되지만 아예 200px줘도 원이 된다. */
+	content:''; /* 가상선택자 before, after의 필수 속성!!!*/
+}
+section>.iam>dl:nth-child(1)>dt:before{
+	background-image: url(../images/team/jieun.jpg); /* bgi */
+	background-position:5px -5px; /* bgp */
+	background-size:100%; /* bgz */
+}
+section>.iam>dl:nth-child(2)>dt:before{background-image: url(../images/team/sunmin.jpg);background-position:5px 0;background-size:110%;}
+section>.iam>dl:nth-child(3)>dt:before{background-image: url(../images/team/suji.jpg);background-position:-5px -5px;background-size:110%;}
+section>.iam>dl:nth-child(4)>dt:before{background-image: url(../images/team/hyerim.jpg);background-position:-10px 0;background-size:110%;}
+section>.iam>dl:nth-child(5)>dt:before{background-image: url(../images/team/teacher.jpg);background-position:-10px 0;background-size:110%;}
+section>.iam>dl:nth-child(6)>dt:before{background-image: url(../images/tellme_06.jpg);background-size:100%;}
+
+section>.iam>dl>dt{
+	color:#000;
+	font-weight:600;
+	font-size:15px;
+	text-align:center; /* ta:c */
+}
+section>.iam>dl>dd{
+	padding:20px;
+	line-height:1.5; /* lh */
+	text-align:center;
+}
+section>.iam>dl>dd>span{
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:100%;
+	display:block;
+	color:#000;
+	font-weight:600;
+	font-size:15px;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
