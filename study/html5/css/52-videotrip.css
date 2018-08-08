@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+#wrap{width:665px;margin:0 auto;outline:1px solid red;}
+
+header>h1{height:70px;line-height:70px;}
+
+section{*zoom:1;}
+section:after{display:block;clear:both;content:'';}
+section>h2{height:50px;line-height:50px;}
+
+section>div{float:left;width:162px;margin-right:5px;}
+section>div:last-child{margin-right:0;}
+
+section>div>nav{position: relative;height:120px;text-indent:-9999px;}
+section>div>nav>a{display:block;height:120px;}
+
+section>div>nav>.arr{position:absolute;left:5px;top:90px;width:26px;height:27px;background-image:url(../images/sp_ico.png);background-position:-102px -450px;}
+section>div>nav>.arr>a{display:block;height:27px;}
+
+section>div>nav>.btn{position:absolute;right:5px;top:90px;width:35px;height:27px;color:#fff;line-height:27px;text-indent:0;text-align:center;background-color:green;}
+section>div>nav>.btn>a{display:block;height:27px;color:#fff;}
+
+section>.gnb_1>nav{background-image:url(../images/movie_1.gif);background-size:cover;}
+section>.gnb_2>nav{background-image:url(../images/movie_2.gif);background-size:cover;}
+section>.gnb_3>nav{background-image:url(../images/movie_3.gif);background-size:cover;}
+section>.gnb_4>nav{background-image:url(../images/movie_4.gif);background-size:cover;}
+
+section>div>dl>dt{height:30px;font-weight:800;font-size:15px;line-height:30px;}
+section>div>dl>dt>a{color:#000;}
+section>div>dl>dt>a:visited{color:#000;}
+
+section>div>dl>dt>button{color:blue;font-weight:600;background-color: #fff;border:1px solid darkgray;}
+section>div>dl>dd{color:black;font-size:13px;}
+
+footer{height:100px;line-height:100px;text-align: center;}

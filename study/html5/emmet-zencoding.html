@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+  <title>구글젠코딩 Emmet</title>
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <style>
+		
+  </style>
+</head>
+<body>
+	<div id="name"></div> <!-- div#name or #name -->
+	
+	<div class="name"></div> <!-- div.name or .name -->
+	
+	<div class="one two"></div> <!-- .one.two -->
+	
+	<div id="name" class="one two"></div> <!-- #name.one.two -->
+	
+	<div>              <!-- div>p -->
+		<p></p>
+	</div>
+	
+	<p></p>           <!-- p*2 p+p -->
+	<p></p>
+	
+	<p class="name-1"></p> <!-- p.name-$*5 넘버링을 달러로 표시 후 곱하기 원하는만큼-->
+	<p class="name-2"></p>  
+	<p class="name-3"></p>
+	<p class="name-4"></p>
+	<p class="name-5"></p>
+	
+	<ul>               <!-- ul+ or ul>li -->
+		<li></li>
+	</ul>
+
+	<dl>               <!-- dl+ or dl>dt+dd-->
+		<dt></dt>
+		<dd></dd>
+	</dl>
+	
+	<p class="title"></p> <!-- p.tit|e 하면 밑처럼 나옴-->
+	&lt;p class="tit"&gt;&lt;/p&gt;
+	
+	<td colspan="2"></td> <!-- td[colspan="2"] -->
+	
+	<a href="https://www.naver.com/" title=""></a> <!--a[href="https://www.naver.com/" title=]-->
+	
+	퀴즈1)
+	
+	<li class="day_01"><span></span></li> <!-- li.day_0$*7>span -->
+	<li class="day_02"><span></span></li>
+	<li class="day_03"><span></span></li>
+	<li class="day_04"><span></span></li>
+	<li class="day_05"><span></span></li>
+	<li class="day_06"><span></span></li>
+	<li class="day_07"><span></span></li>
+	
+	퀴즈2)
+	
+	<nav> 										<!-- nav>ul>li.first+(li*4)+li.last -->						
+		<ul>
+			<li class="first"></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li class="last"></li>
+		</ul>
+	</nav>
+	
+	퀴즈3)
+	
+	<header>									<!-- (header>nav)+(section>.left+.content)+footer -->
+		<nav></nav>
+	</header>
+	<section>
+		<div class="left"></div>
+		<div class="content"></div>
+	</section>
+	<footer></footer>
+	
+	퀴즈4)
+	
+	<div id="page">						<!-- #page>span.logo+(ul#nav>li*5>a) -->
+		<span class="logo"></span>
+		<ul id="nav">
+			<li><a href=""></a></li>
+			<li><a href=""></a></li>
+			<li><a href=""></a></li>
+			<li><a href=""></a></li>
+			<li><a href=""></a></li>
+		</ul>
+	</div>
+	
+	퀴즈5)
+	
+	<div id="wrap">			<!-- #wrap>.ad_notice+(.logo>h1)+(.copy>p)+(.side>a)+(#contents>#container) -->	
+		<div class="ad_notice"></div>
+		<div class="logo">
+			<h1></h1>
+		</div>
+		<div class="copy">
+			<p></p>
+		</div>
+		<div class="side"><a href=""></a></div>
+		<div id="contents">
+			<div id="container"></div>
+		</div>
+	</div>
+	
+</body>
+</html>
